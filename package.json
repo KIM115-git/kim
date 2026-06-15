@@ -1,0 +1,14 @@
+{
+  "name": "image-vision-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server — gives pure-text models (DeepSeek) the ability to see images via vision APIs",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "image-vision-mcp": "./src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "openai": "^4.0.0"
+  }
+}
