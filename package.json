@@ -7,6 +7,9 @@
   "bin": {
     "image-vision-mcp": "./src/index.js"
   },
+  "scripts": {
+    "start": "node src/index.js"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "openai": "^4.0.0"
